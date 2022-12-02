@@ -6,9 +6,9 @@ import {
   Property,
 } from '@mikro-orm/core';
 
-import { BaseEntity } from '../common/base.entity';
-import { Item } from '../items/item.entity';
-import { Log } from '../logs/log.entity';
+import { BaseEntity } from './base.entity';
+import { Item } from './item.entity';
+import { Log } from './log.entity';
 
 @Entity()
 export class SerialNumber extends BaseEntity {

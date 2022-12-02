@@ -2,7 +2,7 @@ import { InjectRepository } from '@mikro-orm/nestjs';
 import { EntityRepository } from '@mikro-orm/postgresql';
 import { Injectable } from '@nestjs/common';
 
-import { SerialNumber } from './serial-number.entity';
+import { SerialNumber } from '../entities/serial-number.entity';
 
 @Injectable()
 export class SerialNumbersService {

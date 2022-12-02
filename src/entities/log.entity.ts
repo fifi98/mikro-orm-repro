@@ -1,8 +1,8 @@
 import { DateType, Entity, ManyToOne, Property } from '@mikro-orm/core';
 
-import { SerialNumber } from '../serial-numbers/serial-number.entity';
-import { BaseEntity } from '../common/base.entity';
-import { Step } from '../steps/step.entity';
+import { SerialNumber } from './serial-number.entity';
+import { BaseEntity } from './base.entity';
+import { Step } from './step.entity';
 
 @Entity()
 export class Log extends BaseEntity {
